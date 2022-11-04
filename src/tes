@@ -1,0 +1,33 @@
+Assignment 6 B: What’s my (data)type? Overloading functions allows you to have the
+method respond differently based on the type of information passed in.
+For this assignment, you will create a method: string WhatsMyType(int data). This
+function should return a string that has the value and declare what datatype it is (in this
+case, an int). You will then create four overloaded versions of this function with the
+following datatype for the parameter:
+• String
+• float
+• char
+• boolean
+Prompt the user to enter five values (an int, String, float, char, and boolean) and then
+prompt them to choose which one to check. (You may assume the user will only enter
+correct values for each datatype)
+The program should pass that variable to the WhatsMyType() function and print out the
+results. You must implement and use the above methods or you will not earn credit.
+Sample Output #1:
+[What’s my datatype?]
+Enter an int: 12
+Enter a string: Bonsoir!
+Enter a float: 3.14
+Enter a char: t
+Enter a boolean: true
+What datatype do you want to check?
+char
+‘t’ is a char value!
+Sample Output #2:
+[What’s my datatype?]
+Enter an int: -3
+Enter a string: Ixnay
+Enter a float: 6.8
+Enter a char: f
+Enter a boolean: false
+What datatype do you want to
